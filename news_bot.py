@@ -19,7 +19,7 @@ def summarize_news():
     
     print("Geminiで要約を生成中...")
     response = client.models.generate_content(
-        model='gemini-2.5-flash',
+        model='gemini-3.8-flash',
         contents=prompt,
     )
     
